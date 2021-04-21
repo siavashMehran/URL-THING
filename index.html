@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #171923;
+        }
+        .container{
+            
+            margin-top: 150px !important;
+            background-image: linear-gradient(-180deg, #c31331, #f79e1b);
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            
+        }
+        .forminput {
+            width: 50%;
+            height: 33px;
+            border-radius: 3px;
+            border: 1px white;
+            box-shadow: 0px 5px 10px 0px green;
+            padding: 5px 30px;
+            font-size: 19px;
+        }
+        .btn {
+            padding: 10px 40px;
+            font-size: 20px;
+            color: white;
+            background-color: #171923;
+            border: none;
+        }
+        .title{
+            font-size: 22px;
+            font-family: 'Courier New', Courier, monospace;
+           
+        }
+        .hr{
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+        
+    <div class="container">
+
+        <br><br><br><br><br>
+        <h1 class="title">Siavash Urlify Thing That Shortens URLS  (duhhh.....)</h1>
+
+        
+        
+        
+        <br><hr class="hr"><br><br><br>
+        <form method="POST">
+
+            <input type="hidden" name="csrfmiddlewaretoken" value="IVVuhIuRCc0ppVzp4OMQ9BDgytGIh80XZbSeniqHl2dgLLBpWsVQ8i5w2sT1FGnM">
+            <input type="text" name="RecievedAdress" placeholder="Enter Your &quot;URL&quot; : " class="forminput" maxlength="300" required id="id_RecievedAdress">
+            <input type="hidden" name="ShortAdressInt" value="4464" id="id_ShortAdressInt">
+
+            
+            <br><br>
+            <button class='btn' type="submit">
+                go
+            </button>
+            
+        </form>
+        <br><br><br><br>
+    </div>
+</body>
+</html>
+
