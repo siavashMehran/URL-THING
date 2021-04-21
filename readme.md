@@ -11,6 +11,6 @@ make sure to install the requirements using:
 <h4> The home page(index.html) of this project is served <a href="https://siavashmehran.github.io/URL-thing/">here</a> (GitHub STATIC page) </h4>
 
 <br>
-<img src="https://raw.githubusercontent.com/siavashMehran/URL-thing/main/thumbnail.png">
+<img src="https://raw.githubusercontent.com/siavashMehran/URL-thing/master/thumbnail.png">
 <br>
-<img src="https://raw.githubusercontent.com/siavashMehran/URL-thing/main/thumbnail2.png">
+<img src="https://raw.githubusercontent.com/siavashMehran/URL-thing/master/thumbnail2.png">
